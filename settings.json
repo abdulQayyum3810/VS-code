@@ -1,0 +1,55 @@
+{
+    "editor.mouseWheelZoom": true,
+    "workbench.tree.indent": 20,
+    "explorer.compactFolders": false,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": false,
+    "editor.wordWrap": "on",
+    "code-runner.showExecutionMessage": false,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.cursorStyle": "block",
+    "notebook.lineNumbers": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Flx Seti Monokai",
+    "workbench.iconTheme": "file-icons-mac",
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "on",
+        "strings": "on"
+    },
+    "editor.tabCompletion": "on",
+    "python.defaultInterpreterPath": "c:\\Users\\AQ\\Virtual Environments\\django_venv\\Scripts\\python.exe",
+    "[html]": {
+        "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        }
+    }
+}
